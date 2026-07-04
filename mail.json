@@ -1,0 +1,106 @@
+[
+{
+    "Id": "MailSandy01",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy01",
+    "Attachments": [ { "Type": "Object","Name": "Bug Meat","Stack": 10 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 1 } ]
+},
+
+{ 
+    "Id": "MailSandy02",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy02",
+    "Attachments": [ { "Type": "Object", "Name": "Field Snack", "Stack": 1}],
+    "FriendshipConditions": [ {"NpcName": "Sandy","FriendshipLevel": 2 } ]
+},
+
+{
+    "Id": "MailSandy03",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy03",
+    "Attachments": [ { "Type": "Object", "Name": "Wild Bait", "Stack": 30 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 3} ]
+},
+
+{
+    "Id": "MailSandy04",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy04",
+    "Attachments": [ { "Type": "Object", "Name": "Driftwood", "Stack": 10 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 4 } ]
+},
+
+{
+    "Id": "MailSandy05",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy05",
+    "Attachments": [ { "Type": "Object", "Name": "Common Mushroom", "Stack": 10 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 5 } ]
+},
+
+{
+    "Id": "MailSandy06",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy06",
+    "Attachments": [ { "Type": "Object", "Name": "Morel", "Stack": 3 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 6 } ]
+},
+
+{
+    "Id": "MailSandy07",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy07",
+    "Attachments": [ { "Type": "Object", "Name": "Chanterelle", "Stack": 3 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 7 } ]
+},
+
+{
+    "Id": "MailSandy08",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy08",
+    "Attachments": [ { "Type": "Object", "Name": "Fiddlehead Fern", "Stack": 4 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 8 } ]
+},
+
+{
+    "Id": "MailSandy09",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy09",
+    "Attachments": [ { "Type": "Object", "Name": "Cactus Seeds", "Stack": 10 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 9 } ]
+},
+
+{
+    "Id": "MailSandy10",
+    "GroupId": "SandyLetters",
+    "Text": "MailSandy10",
+    "Attachments": [ { "Type": "Object", "Name": "Treasure Chest", "Stack": 1 } ],
+    "FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 10 } ]
+},
+
+{
+	"Id": "SandyRepetable",
+	"Repeatable": true,
+	"RandomChance": 0.075,
+	"FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 1 } ],
+	"RandomlyChooseAttachment": 1,
+	"Attachments": [
+		{ "Type": "Object", "Index": "90", "Stack": 1, "RandomGroup": "Desert" }, //Cactus Fruit
+		{ "Type": "Object", "Index": "90", "Stack": 2, "RandomGroup": "Desert" }, //Cactus Fruit   
+		{ "Type": "Object", "Index": "90", "Stack": 3, "RandomGroup": "Desert" }, //Cactus Fruit
+		{ "Type": "Object", "Index": "88", "Stack": 1, "RandomGroup": "Desert" }, //Coconut
+		{ "Type": "Object", "Index": "88", "Stack": 2, "RandomGroup": "Desert" }, //Coconut
+		{ "Type": "Object", "Index": "88", "Stack": 3, "RandomGroup": "Desert" }, //Coconut
+		{ "Type": "Object", "Index": "395", "Stack": 1, "RandomGroup": "Desert" }, //Coffee
+		{ "Type": "Object", "Index": "395", "Stack": 2, "RandomGroup": "Desert" }, //Coffee
+		{ "Type": "Object", "Index": "395", "Stack": 3, "RandomGroup": "Desert" }, //Coffee
+		{ "Type": "Object", "Index": "433", "Stack": 5, "RandomGroup": "Desert" }, //Coffee Bean
+		{ "Type": "Object", "Index": "433", "Stack": 10, "RandomGroup": "Desert" }, //Coffee Bean
+		{ "Type": "Object", "Index": "433", "Stack": 15, "RandomGroup": "Desert" }, //Coffee Bean
+		{ "Type": "Object", "Index": "802", "Stack": 3,  "RandomGroup": "Desert" }, //Cactus Seeds
+		{ "Type": "Object", "Index": "802", "Stack": 5,  "RandomGroup": "Desert" }, //Cactus Seeds
+		{ "Type": "Object", "Index": "802", "Stack": 7,  "RandomGroup": "Desert" } //Cactus Seeds
+    ]
+}
+]
