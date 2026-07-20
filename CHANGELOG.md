@@ -18,6 +18,20 @@ Added GitHub Actions workflow to automatically generate CHANGELOG.md on pushes t
 
 Replace the git-cliff GitHub Action with direct cargo installation and add cliff.toml configuration file. This approach provides more control over changelog generation with conventional commits support and Portuguese language formatting for commit categories.
 
+- Merge branch 'main' of https://github.com/Mods-Stardew-Valley/MFM-Gifts-from-Sandy
+
+
+### ♻️ Refatoração
+
+
+- [MFM] Gifts from Sandy directory
+
+
+### 📚 Documentação
+
+
+- atualiza CHANGELOG.md [skip ci]
+
 
 ## v1.0.1 - 2026-07-14
 
