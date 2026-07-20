@@ -101,9 +101,9 @@
 },
 
 {
-	"Id": "SandyRepetable",
+	"Id": "SandyRepeteable",
     "GroupId": "SandyLetters",
-    "Text": "SandyRepetable",
+    "Text": "SandyRepeteable",
 	"Repeatable": true,
 	"RandomChance": 0.075,
 	"FriendshipConditions": [ { "NpcName": "Sandy", "FriendshipLevel": 1 } ],
